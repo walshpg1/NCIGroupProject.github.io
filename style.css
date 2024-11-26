@@ -256,7 +256,7 @@ iframe {
 
     .navbar-brand {
         flex-direction: column;
-        font-size: 30px;      /* Reduce brand size for smaller screens */
+        font-size: 50px;      /* Reduce brand size for smaller screens */
         margin-bottom: 15px;  /* Add space below brand */
     }
 
@@ -305,7 +305,7 @@ iframe {
 
     .navbar-brand {
         flex-direction: column;
-        font-size: 30px;      /* Reduce brand size for smaller screens */
+        font-size: 40px;      /* Reduce brand size for smaller screens */
         margin-bottom: 15px;  /* Add space below brand */
     }
 

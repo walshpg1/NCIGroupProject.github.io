@@ -11,6 +11,9 @@ window.onload = function () {
     };
 };
 
+let darkMode = localStorage.getIem('darkMode');
+
+
 
 window.onload = function () {
     var themeToggle = document.querySelector(".theme-toggle");
