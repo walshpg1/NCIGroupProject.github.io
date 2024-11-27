@@ -11,7 +11,6 @@ window.onload = function () {
     };
 };
 
-
 window.onload = function () {
     var themeToggle = document.querySelector(".theme-toggle");
     var body = document.body;
