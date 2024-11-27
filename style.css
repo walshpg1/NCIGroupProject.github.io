@@ -192,7 +192,7 @@ iframe {
     margin-bottom: 10px;
     font-size: 16px;
     text-transform: uppercase;
-    color: #000000; /* Gold for headings */
+    color: #000000; 
 }
 
 .footer-section p, .footer-section ul {
@@ -216,7 +216,7 @@ iframe {
 }
 
 .footer-section ul li a:hover {
-    color: #000dff; /* Gold on hover */
+    color: #000dff; 
 }
 
 .footer-bottom {
@@ -256,6 +256,7 @@ iframe {
 
     .navbar-brand {
         flex-direction: column;
+        
         font-size: 50px;      /* Reduce brand size for smaller screens */
         margin-bottom: 15px;  /* Add space below brand */
     }
@@ -266,8 +267,8 @@ iframe {
     }
 
     .dropdown-item {
-        justify-content: flex-start;
-        font-size: 20px;      /* Adjust dropdown item size */
+        /*justify-content: flex-start; */
+        font-size: 30px;      /* Adjust dropdown item size */
     }
 
     .theme-toggle-container {
@@ -304,8 +305,10 @@ iframe {
     }
 
     .navbar-brand {
-        flex-direction: column;
-        font-size: 40px;      /* Reduce brand size for smaller screens */
+        flex-direction: row;
+        text-align: center;
+        
+        font-size: 70px;      /* Reduce brand size for smaller screens */
         margin-bottom: 15px;  /* Add space below brand */
     }
 
@@ -316,7 +319,7 @@ iframe {
 
     .dropdown-item {
         justify-content: flex-start;
-        font-size: 20px;      /* Adjust dropdown item size */
+        font-size: 30px;      /* Adjust dropdown item size */
     }
 
     .theme-toggle-container {
