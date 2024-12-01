@@ -277,6 +277,13 @@ iframe {
     }
 }
 
+h1{
+    margin-top: 5%;
+    text-align: center;
+    font-family: "Annie Use Your Telescope";
+    font-size: 50px; 
+}
+
 /* Media query for home page images */
 @media (max-width: 1000px) {
     .welcome-container-top {
@@ -433,7 +440,7 @@ ery */
     .navbar-brand {
         flex-direction: row;
         font-size: 50px;      /* Reduce brand size for smaller screens */
-        margin-bottom: 15px;  /* Add space below brand */
+        margin-bottom: 1px;  /* Add space below brand */
     }
 
     .nav-dropdown {
