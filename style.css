@@ -330,7 +330,9 @@ iframe {
 
 
 
-/* galery */
+/* gall
+
+ery */
 
 .gallery {
     display: grid;
@@ -430,9 +432,7 @@ iframe {
 
     .navbar-brand {
         flex-direction: row;
-        text-align: center;
-        
-        font-size: 30px;      /* Reduce brand size for smaller screens */
+        font-size: 50px;      /* Reduce brand size for smaller screens */
         margin-bottom: 15px;  /* Add space below brand */
     }
 
