@@ -1,0 +1,22 @@
+#service-container {
+    margin:50px;
+}
+.service-cards {
+    margin-bottom:50px;
+    }
+
+.service-cards a{
+    background-color: #000!important;
+}
+
+.carousel-indicators button {background-color:gray!important;}
+.carousel-indicators button.active {background-color: black!important;}
+
+@media (max-width: 600px) {
+    #service-container {
+        margin:10px;
+    }
+    .service-cards > div {
+        margin-bottom:30px;
+        }
+}
