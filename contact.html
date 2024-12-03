@@ -64,10 +64,17 @@
     <!-- contact page items-->
 
     <div id="contact">
-    <div class="input-group mb-3">
-        <input type="text" class="form-control mb-1" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="First Name">
-        <input type="text" class="form-control mb-1" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Last Name">
-      </div>
+        <form name="contactform" method="post" class="needs-validation" novalidate>
+            <div class="input-group mb-3">
+        <input type="text" class="form-control mb-1" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="First Name" required="">
+        <div class="invalid-feedback">
+            Enter your first name
+        </div>
+        <input type="text" class="form-control mb-1" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Last Name" required="">
+        <div class="invalid-feedback">
+            Enter your last name
+        </div>
+    </div>
 
       <div class="input-group mb-3">
         <input type="email" class="form-control mb-1" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Email address">
@@ -106,6 +113,8 @@
     </h4> 
       </div>
     </div>
+    <button class="btn btn-primary" type="submit">Submit form</button>
+    </form>
 </div>
       
       <script> 
