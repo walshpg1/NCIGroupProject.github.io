@@ -28,6 +28,16 @@
     text-decoration: underline;
 }
 
+.form-control {
+    margin-bottom:0px!important;
+}
+
+#servicesform {
+    margin-bottom:20px;
+}
+
+
+
 @media (max-width: 600px) {
     #service-container {
         margin:10px;

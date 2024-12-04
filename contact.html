@@ -87,14 +87,15 @@
 
       <div class="input-group mb-3">
         <span class="input-group-text" id="inputGroupPrepend"><i class="fa-solid fa-phone" style="color: #000000;"></i></span>
-        <input type="tel" class="form-control mb-1" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Phone">
+        <input type="tel" inputmode="numeric" class="form-control mb-1" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Phone" required >
         <div class="invalid-feedback">
             Please provide phone number.
           </div>
     </div>
       <h3>Tell us about your dog</h3>
       <div class="input-group mb-3">
-        <input type="email" class="form-control mb-1" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Dog's name">
+        <span class="input-group-text" id="inputGroupPrepend"><i class="fa-solid fa-dog" style="color: #000000;"></i></span>
+        <input type="text" class="form-control mb-1" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Dog's name">
       </div>
 
       <div class="input-group mb-3">
@@ -121,6 +122,15 @@
         <span id="curr"></span> Kg
     </h4> 
       </div>
+    </div>
+    <div id="servicesform">
+    <h3>Which service would you like</h3>
+    <input type="checkbox" class="btn-check" id="nail-trim" autocomplete="off">
+    <label class="btn btn-primary" for="nail-trim">Nail trim</label>
+    <input type="checkbox" class="btn-check" id="wash" autocomplete="off">
+    <label class="btn btn-primary" for="wash">Wash</label>
+    <input type="checkbox" class="btn-check" id="groom" autocomplete="off">
+    <label class="btn btn-primary" for="groom">Full groom</label>
     </div>
     <button class="btn btn-primary" type="submit">Submit form</button>
     </form>
