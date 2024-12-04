@@ -13,8 +13,6 @@
 .carousel-indicators button.active {background-color: black!important;}
 
 #contact {
-    width:600px;
-    margin:auto;
     text-align:center;
     margin-top:45px;
 }
