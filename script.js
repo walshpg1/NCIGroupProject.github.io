@@ -34,3 +34,26 @@ window.onload = function () {
         }
     };
 };
+
+
+//variables
+const form = document.getElementById("servicesform");
+const thankYouMessage = document.getElementById("thankYouMessage");
+const messageText = document.getElementById("messageText");
+
+// Form submission event
+form.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    // Get the values from the form
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+
+    // Construct the thank you message
+    messageText.textContent = `${name}, thank you for your details. We will be in touch via ${email} shortly.`;
+
+    // Hide the form and show the thank you message
+    form.style.display = 'none';
+    thankYouMessage.style.display = 'block';
+    }
+);
