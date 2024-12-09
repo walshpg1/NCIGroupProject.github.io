@@ -31,7 +31,17 @@
     margin-bottom: 40px;
 }
 
-
+.carousel-item {
+    height: 250px; /* Set a fixed height for smooth transitions */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-caption .card {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
 
 #contactdets h4{
     padding-bottom:15px;
